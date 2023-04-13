@@ -65,8 +65,8 @@ Lifecycle policies help with managing the lifecycle of the images in your reposi
  <img alt="coding" width="500" src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*jrdZWe4JRU5KDbWfnRxenA.png">  <br />
 - In this blog post, I’ll explain to you how to build & push docker images to AWS ECR **(Elastic Container Registry)** using GitHub Actions.
 
+## Create Dockerfile
 # **_Getting Started_**
-- Create Dockerfile 
 
 First of all, build the application on your local environment and then create a repository in GitHub .
 - Run this command to create a directory  and go in that directory. ``$ mkdir Repo && cd Repo ``
