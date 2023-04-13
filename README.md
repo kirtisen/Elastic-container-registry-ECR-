@@ -27,7 +27,7 @@ Image scanning helps in identifying software vulnerabilities in your container i
 Lifecycle policies help with managing the lifecycle of the images in your repositories. You define rules that result in the cleaning up of unused images. You can test rules before applying them to your repository.
 
 ## Task :-
-[Create the Private Amazon ECR Repository](#creating-an-ecr-repository). 
+[Create the Private Amazon ECR Repository](#ECR-Repository). 
 - Build a **Docker Image**  of **Apache container** and configure web page, add this data ``Hello From ECS`` in web page. Then, Pull that **Docker Image** to Amazon ECR.
    - [Create a **Dockerfile**](#create-an-dockerfile)
    - [Build the **Image**](#build-the-docker-image)   
@@ -44,3 +44,11 @@ Lifecycle policies help with managing the lifecycle of the images in your reposi
 -   [Docker installation in localy for Ubuntu OS](https://docs.docker.com/engine/install/ubuntu/). 
 	 Docker installing for other operating system, click [here](https://docs.docker.com/get-docker/).
 -   The  [AWS CLI installed locally](https://aws.amazon.com/cli/). And configure the credentials.
+
+#### ECR Repository
+- Sign in your [Amazon console](https://aws.amazon.com/console/).
+- Press key [Alt+S] and type ECR. Then click on [Elastic Container Registry](https://us-west-1.console.aws.amazon.com/ecr/home?region=us-west-1)
+
+#### Configuring Your Repository
+-  Click on ``Get started`` to create the repository. <br /> 
+     <img alt="coding" width="700" src="https://github.com/kirtisen/Elastic-container-registry-ECR-/blob/main/Images/Screenshot%20from%202023-04-13%2022-32-33.png">  <br />
