@@ -2,9 +2,6 @@
 
 **Amazon Elastic Container Registry** (Amazon ECR) is an AWS managed container image registry service that is secure, scalable, and reliable . Amazon ECR supports private repositories with resource-based permissions using AWS IAM.
 
-
-
-
 # Components of Amazon ECR
 Amazon ECR contains the following components:
 -  **Docker images :-** This is the file that is used to execute code within a Docker container.
@@ -40,7 +37,6 @@ Lifecycle policies help with managing the lifecycle of the images in your reposi
 <br />
 <br />
 <br />
-
 ## key point  that you must have 
 
 -   [AWS Credentials](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)  with permissions to interact with ECR.
