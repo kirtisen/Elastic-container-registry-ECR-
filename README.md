@@ -54,3 +54,8 @@ Lifecycle policies help with managing the lifecycle of the images in your reposi
      <img alt="coding" width="700" src="https://github.com/kirtisen/Elastic-container-registry-ECR-/blob/main/Images/Screenshot%20from%202023-04-13%2022-32-33.png">  <br />
 -  In the setting that appears click on `private` and give any name to your repository.
      <img alt="coding" width="700" src="https://github.com/kirtisen/Elastic-container-registry-ECR-/blob/main/Images/Screenshot%20from%202023-04-13%2023-21-03.png">  <br />
+     
+     -   Afterthat click to `create repository`.
+ 
+-   Now private ECR repository is created .
+     <img alt="coding" width="700" src="https://github.com/kirtisen/Elastic-container-registry-ECR-/blob/main/Images/Screenshot%20from%202023-04-13%2023-35-23.png">  <br />
