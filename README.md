@@ -59,3 +59,14 @@ Lifecycle policies help with managing the lifecycle of the images in your reposi
  
 -   Now private ECR repository is created .
      <img alt="coding" width="700" src="https://github.com/kirtisen/Elastic-container-registry-ECR-/blob/main/Images/Screenshot%20from%202023-04-13%2023-35-23.png">  <br />
+     
+
+# Build & Push Docker Image to AWS ECR using GitHub Actions
+ <img alt="coding" width="500" src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*jrdZWe4JRU5KDbWfnRxenA.png">  <br />
+- In this blog post, I’ll explain to you how to build & push docker images to AWS ECR **(Elastic Container Registry)** using GitHub Actions.
+
+# **_Getting Started_**
+
+First of all, build the application on your local environment and then create a repository in GitHub .
+- Run this command to create a directory  and go in that directory. ``$ mkdir ~/Docker && cd ~/Docker``
+- Create a file with name **Dockerfile** and add this data. 
