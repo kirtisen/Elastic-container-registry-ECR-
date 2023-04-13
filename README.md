@@ -68,5 +68,21 @@ Lifecycle policies help with managing the lifecycle of the images in your reposi
 # **_Getting Started_**
 
 First of all, build the application on your local environment and then create a repository in GitHub .
-- Run this command to create a directory  and go in that directory. ``$ mkdir ~/Docker && cd ~/Docker``
+- Run this command to create a directory  and go in that directory. ``$ mkdir Repo && cd Repo ``
 - Create a file with name **Dockerfile** and add this data. 
+```
+	FROM ubuntu:22.04
+
+	RUN apt update && apt install -y apache2
+
+	ENV APACHE_RUN_USER www-data
+	ENV APACHE_RUN_GROUP www-data
+	ENV APACHE_LOG_DIR /var/log/apache2
+	ENV APACHE_RUN_DIR /var/www/html
+
+	RUN echo "<font size = "20" color="green"><b><u>Hello From ECS ;)</u></b></font><br />" > /var/www/html/index.html
+
+	ENTRYPOINT ["/usr/sbin/apache2"]
+	CMD ["-D", "FOREGROUND"]
+```
+ <img alt="coding" width="700" src="https://github.com/kirtisen/Elastic-container-registry-ECR-/blob/main/Images/Screenshot%20from%202023-04-14%2000-03-47.png"> <br />
