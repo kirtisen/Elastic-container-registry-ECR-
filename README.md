@@ -29,7 +29,7 @@ Lifecycle policies help with managing the lifecycle of the images in your reposi
 ## Task :-
 [Create the Private Amazon ECR Repository](#ECR-Repository). 
 - Build a **Docker Image**  of **Apache container** and configure web page, add this data ``Hello From ECS`` in web page. Then, Pull that **Docker Image** to Amazon ECR.
-   - [Create a **Dockerfile**](#Getting Started)
+   - [Create a **Dockerfile**](#CreateDockerfile)
    - [Build the **Image**](#build-the-docker-image)   
    - [Pull the **Docker Image** on ECR Repository](#push-the-image-apache2-to-elastic-container-registry)
 -  Create a **Cluster** in Amazon Elastic Container Service (ECS). And in the **Task Defination** define that docker image. And run that task with that Docker Image.  
@@ -66,6 +66,7 @@ Lifecycle policies help with managing the lifecycle of the images in your reposi
 - In this blog post, I’ll explain to you how to build & push docker images to AWS ECR **(Elastic Container Registry)** using GitHub Actions.
 
 # **_Getting Started_**
+- Create Dockerfile 
 
 First of all, build the application on your local environment and then create a repository in GitHub .
 - Run this command to create a directory  and go in that directory. ``$ mkdir Repo && cd Repo ``
